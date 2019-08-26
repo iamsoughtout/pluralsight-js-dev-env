@@ -1,7 +1,7 @@
 environment:
   matrix:
 
-  - nodejs_version: "6"
+    - nodejs_version: "6"
     docker_image: alpine
   install:
   - ps: Install-Product node $env:nodejs_version
